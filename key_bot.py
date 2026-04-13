@@ -102,7 +102,7 @@ async def on_ready():
         logger.info("aligning to minute boundary: sleep %.1fs (async)", wait_sec)
         await asyncio.sleep(wait_sec)
 
-    channel = client.get_channel(1493119451640627240)
+    channel = client.get_channel(1100228900501594179)
     if channel is None:
         logger.error("channel 1100228900501594179 not found (missing intent or wrong id)")
         return
