@@ -1,0 +1,7 @@
+logs/
+.venv/
+.env
+__pycache__/
+*.pyc
+nfc_tokens.json
+room_state.json
